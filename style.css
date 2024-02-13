@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Ubuntu:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Source+Code+Pro:wght@300&family=Ubuntu:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/images/backgroung.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.81;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    max-width: 80vw;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+
+nav button {
+    margin-top: 20px;
+    margin-right: -70px;
+    cursor: pointer;
+}
+
+nav img {
+    margin-top: 30px;
+    margin-left: -90px;
+    width: 155px;
+    color: red;
+}
+
+nav button {
+    background-color: red;
+    color: white;
+    border: solid red 1px;
+    border-radius: 2.5px;
+    width: 74px;
+    height: 33px;
+
+}
+
+.heading {
+    width: 50vw;
+    margin: 115px 150px;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.heading h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 67px;
+    margin-bottom: 25px;
+}
+
+.heading h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 37px;
+    margin-bottom: 18px;
+}
+
+.heading h5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+
+.heading input {
+    margin-top: 30px;
+    height: 50px;
+    width: 350px;
+    background-color: rgba(116, 111, 111, 0.247);
+    border: 0.5px solid gray;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    z-index: 1;
+}
+
+::placeholder {
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.heading button {
+    background-color: red;
+    color: white;
+    border: solid red 1px;
+    border-radius: 2.5px;
+    width: 180px;
+    height: 53px;
+    margin-left: 8px;
+    font-size: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.seperation {
+    height: 1px;
+    background-color: gray;
+
+}
+.main1 {
+    background-image: url(assets/images/2nd\ backgroung.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    
+
+
+}
+.main1 .main1a{
+    height: 70vh;
+    width: 70vw;
+    background-color: transparent;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+margin-left: 200px;
+padding-top: 180px;
+position: relative;
+z-index: 1;
+
+
+
+}
+.main1  .box {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.41;
+    position: absolute;
+    top: 0;
+}
+
+.main1 h1{
+    font-size: 50px;
+    text-align: center;
+    
+    
+}
+
+.main2 {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.faqs {
+
+    width: 80vw;
+    margin: auto;
+
+}
+.faqs .boxlast{
+    
+}
+
+.main2 h2 {
+    color: white;
+    margin-left: -29px;
+}
+
+.main2 .faqs .q h2 {
+    padding: 30px;
+}
+
+.box svg {
+    filter: invert(1);
+    margin-right: 20px;
+
+}
+
+.main2 .box {
+    transition: all 1s ease-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(228, 221, 221);
+    font-size: 23px;
+    margin-top: 10px;
+    height: 80px;
+    width: 80%;
+    background-color: rgb(63, 60, 60);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main2 .box:hover {
+    background-color: rgb(102, 100, 100);
+    cursor: pointer;
+}
+
+.main2 .box p {
+    margin-left: 20px;
+}
+
+.main3 {
+    width: 100vw;
+    height: 30vh;
+    background-color: black;
+}
+
+.main3 .ready p {
+    padding-top: 50px;
+    margin-left: 133px;
+    font-size: larger;
+    color: white;
+}
+
+.main3 input {
+    margin-left: 133px;
+    margin-top: 30px;
+    height: 50px;
+    width: 750px;
+    background-color: rgba(143, 140, 140, 0.247);
+    border: 0.5px solid gray;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    z-index: 1;
+}
+
+::placeholder {
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.main3 button {
+    background-color: red;
+    color: white;
+    border: solid red 1px;
+    border-radius: 2.5px;
+    width: 280px;
+    height: 53px;
+    margin-left: 8px;
+    font-size: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+footer {
+    color: white;
+    max-width: 70vw;
+    margin: auto;
+    padding: 14px;
+
+}
+
+footer span {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: underline;
+}
+
+footer a {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+footer .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+footer .items {
+    display: flex;
+    flex-direction: column;
+}
+
+footer button {
+    margin-top: 70px;
+    width: 127px;
+    height: 33px;
+    background-color: #0f0f0f;
+    color: white;
+    border: 0.5px solid gray;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+footer button:hover {
+    background-color: rgba(97, 95, 95, 0.493);
+    cursor: pointer;
+    transition: all 1s ease-out;
+}
+
+footer p {
+    margin-top: 40px;
+    font-size: 15px;
+    color: rgb(204, 201, 201);
+}
